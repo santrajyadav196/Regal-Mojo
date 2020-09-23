@@ -1,5 +1,5 @@
 
-// all the middleware goes here
+//middleware goes here
 
 var middlewareObj = {};
 
