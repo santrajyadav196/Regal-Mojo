@@ -1,0 +1,38 @@
+<%- include ("./partials/header") %>
+<h1 style="text-align: center; color: blue;">Sign Up</h1>
+<div class="container">
+<form action="/register" method="POST">
+	<div>
+		<label for="username"> Username:
+			<input type="text" id="username" class="form-control" name="username" placeholder="username" required size="40">
+		</label>	
+	</div>
+	<div>
+		<label for="email"> Email Address:
+			<input type="email" id="email" class="form-control" name="email" placeholder="email" required size="40">
+		</label>
+	</div>
+	<div>
+		<label for="tel"> Contact Number:
+			<input type="tel" id="tel" class="form-control" name="contact" placeholder="contaxt number" required size="40">
+		</label>	
+	</div>
+	<div>
+		<label for="date"> Date Of Birth:
+			<input type="date" id="date" class="form-control" name="birthday" placeholder="birthday" required size="40">
+		</label>	
+	</div>
+	<div>
+		<label for="password"> Password:
+			<input type="password" id="password" class="form-control" name="password" placeholder="password" required size="40">
+		</label>	
+	</div>
+	<div>
+		<label>
+			<input class="form-control btn btn-primary" type="submit" value="SUBMIT">
+		</label>	
+	</div>
+</form>	
+</div>
+
+<%- include ("./partials/footer") %>
